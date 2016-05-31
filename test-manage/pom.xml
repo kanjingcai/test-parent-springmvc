@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.test</groupId>
+		<artifactId>test-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>test-manage</artifactId>
+	<packaging>pom</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.test</groupId>
+			<artifactId>test-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		
+	</dependencies>
+
+	<modules>
+		<module>test-manage-pojo</module>
+		<module>test-manage-mapper</module>
+		<module>test-manage-service</module>
+		<module>test-manage-web</module>
+	</modules>
+</project>
